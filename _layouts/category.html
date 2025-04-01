@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Posts in "{{ page.category | capitalize }}"</h1>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains page.category %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %d, %Y" }})</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<a href="{{ site.baseurl }}/">⬅️ Back to Home</a>
