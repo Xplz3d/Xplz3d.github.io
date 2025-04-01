@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Another Day, Another Post"
 date: 2024-03-16
 categories: life
