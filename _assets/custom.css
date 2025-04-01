@@ -1,0 +1,40 @@
+/* Change background color */
+body {
+    background-color: #f5f5f5;  /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Customize the navigation bar */
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li.active a {
+    color: #ff6600;  /* Highlight active menu item */
+    text-decoration: underline;
+}
+
+/* Customize post layout */
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
